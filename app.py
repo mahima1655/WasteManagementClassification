@@ -49,11 +49,4 @@ if uploaded_file is not None:
     # Optionally display a probability score
     st.write(f"Prediction confidence: {prediction[0][0]:.2f}")
 
----
 
-### **Step 4: Run the App**
-
-After you’ve created the `app.py` file, run it with the following command in your terminal:
-
-```bash
-streamlit run app.py
